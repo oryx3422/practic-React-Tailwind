@@ -1,12 +1,23 @@
-# React + Vite
+# Конвертер валют
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Конвертер валют RUB ⇄ EUR, написанный на **React + Tailwind CSS**, с использованием открытого API.
+<div>
+  <img src="img/converter1.png" height="350" width="450" />
+  <img src="img/converter2.png" height="350" width="450" />
+</div>
 
-Currently, two official plugins are available:
+## Функционал
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Двусторонняя конвертация: RUB ⇄ EUR
+- Актуальный курс валют с API
+- Адаптивный интерфейс с Tailwind CSS
 
-## Expanding the ESLint configuration
+## Установка и запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/oryx3422/practic-React-Tailwind.git
+cd practic-React-Tailwind/vite-project
+
+npm install
+npm run dev
+```
