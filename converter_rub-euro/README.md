@@ -15,8 +15,8 @@
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/oryx3422/practic-React-Tailwind/converter_rub-euro
-cd practic-React-Tailwind/vite-project
+git clone https://github.com/oryx3422/practic-React-Tailwind.git
+cd practic-React-Tailwind/converter_rub-euro
 
 npm install
 npm run dev
