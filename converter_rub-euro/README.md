@@ -13,6 +13,7 @@
 - Адаптивный интерфейс с Tailwind CSS
 
 ## Установка и запуск
+- node version >20
 
 ```bash
 git clone https://github.com/oryx3422/practic-React-Tailwind.git
